@@ -3,8 +3,10 @@
     [
       "@babel/preset-env",
       {
-        "targets": " > 1%",
-        "useBuiltIns": "usage"
+        "targets": "last 2 versions, > 1%",
+        "useBuiltIns": "usage",
+        "corejs": 3,
+        "modules": false
       }
     ]
   ]

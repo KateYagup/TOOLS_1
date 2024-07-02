@@ -10,7 +10,6 @@
     "copy:html": "@powershell copy ./src/index.html ./dist/index.html",
     "copy:scripts": "@powershell copy -R ./src/scripts ./dist/scripts",
     "clean": "@powershell rmdir ./dist",
-    // "build": "npm run build:styles && npm run copy:html  && npm run copy:scripts"
     "build": "npm-run-all clean build:styles copy:html copy:scripts"
   },
   "author": "",
