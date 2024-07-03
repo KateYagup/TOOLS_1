@@ -10,10 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "core-js": "^3.5.0",
+    "-": "^0.0.1",
     "@babel/cli": "^7.24.7",
     "@babel/core": "^7.24.7",
-    "@babel/preset-env": "^7.24.7"
+    "@babel/preset-env": "^7.24.7",
+    "core-js": "^3.5.0"
   },
+  "devDependencies": {},
   "description": ""
 }
