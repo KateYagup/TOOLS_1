@@ -7,7 +7,11 @@ module.exports = {
         rules: [
             {
                 test: /.css$/,
-                use: 'css-liader'
+                use: ['style-loader', 'css-loader']
+            },
+            {
+                test: /.(jpg|png)$/,
+                use: ['url-loader']
             }
         ]
     }
